@@ -78,6 +78,8 @@ void AnimationState_setAnimation (AnimationState* self, Animation* newAnimation,
 		if (internal->mixDuration > 0) {
 			internal->mixTime = 0;
 			internal->previous = self->animation;
+			internal->previousTime = self->time;
+			internal->previousLoop = self->loop;
 		}
 	}
 	CONST_CAST(Animation*, self->animation) = newAnimation;

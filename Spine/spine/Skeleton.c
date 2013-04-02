@@ -60,7 +60,7 @@ void _Skeleton_init (Skeleton* self, SkeletonData* data) {
 		SlotData *slotData = data->slots[i];
 
 		/* Find bone for the slotData's boneData. */
-		Bone *bone = NULL;
+		Bone *bone;
 		for (ii = 0; ii < self->boneCount; ++ii) {
 			if (data->bones[ii] == slotData->boneData) {
 				bone = self->bones[ii];

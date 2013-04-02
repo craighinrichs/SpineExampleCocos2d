@@ -161,6 +161,7 @@
 		9A5D268A170A95FB0030D4DD /* Skin.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D2678170A95FB0030D4DD /* Skin.c */; };
 		9A5D268B170A95FB0030D4DD /* Slot.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D2679170A95FB0030D4DD /* Slot.c */; };
 		9A5D268C170A95FB0030D4DD /* SlotData.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D267A170A95FB0030D4DD /* SlotData.c */; };
+		9A5D268E170A9D440030D4DD /* spineboy-jump.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D268D170A9D430030D4DD /* spineboy-jump.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -483,6 +484,7 @@
 		9A5D2678170A95FB0030D4DD /* Skin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Skin.c; sourceTree = "<group>"; };
 		9A5D2679170A95FB0030D4DD /* Slot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Slot.c; sourceTree = "<group>"; };
 		9A5D267A170A95FB0030D4DD /* SlotData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlotData.c; sourceTree = "<group>"; };
+		9A5D268D170A9D430030D4DD /* spineboy-jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "spineboy-jump.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -938,6 +940,7 @@
 			children = (
 				9A5D2646170A950C0030D4DD /* spineboy-skeleton.json */,
 				9A5D2647170A950C0030D4DD /* spineboy-walk.json */,
+				9A5D268D170A9D430030D4DD /* spineboy-jump.json */,
 				9A5D2648170A950C0030D4DD /* spineboy.atlas */,
 				9A5D2649170A950C0030D4DD /* spineboy.png */,
 			);
@@ -965,7 +968,6 @@
 				9A5D2665170A95F00030D4DD /* Slot.h */,
 				9A5D2666170A95F00030D4DD /* SlotData.h */,
 				9A5D2667170A95F00030D4DD /* spine.h */,
-				9A5D2653170A95B90030D4DD /* spine-cocos2d-iphone.h */,
 				9A5D2668170A95FB0030D4DD /* Animation.c */,
 				9A5D2669170A95FB0030D4DD /* AnimationState.c */,
 				9A5D266A170A95FB0030D4DD /* AnimationStateData.c */,
@@ -985,6 +987,7 @@
 				9A5D2678170A95FB0030D4DD /* Skin.c */,
 				9A5D2679170A95FB0030D4DD /* Slot.c */,
 				9A5D267A170A95FB0030D4DD /* SlotData.c */,
+				9A5D2653170A95B90030D4DD /* spine-cocos2d-iphone.h */,
 				9A5D2654170A95B90030D4DD /* spine-cocos2d-iphone.m */,
 			);
 			path = spine;
@@ -1057,6 +1060,7 @@
 				9A5D264B170A950C0030D4DD /* spineboy-walk.json in Resources */,
 				9A5D264C170A950C0030D4DD /* spineboy.atlas in Resources */,
 				9A5D264D170A950C0030D4DD /* spineboy.png in Resources */,
+				9A5D268E170A9D440030D4DD /* spineboy-jump.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1307,6 +1311,7 @@
 				9A5D2645170A94DC0030D4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
